@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import udd_upp.model.Casopis;
 import udd_upp.model.Korisnik;
 import udd_upp.model.Rad;
-import udd_upp.model.StatusRada;
+import udd_upp.enumeration.StatusRada;
 import udd_upp.service.CasopisService;
 import udd_upp.service.EmailService;
 import udd_upp.service.RadService;

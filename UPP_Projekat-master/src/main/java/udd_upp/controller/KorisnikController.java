@@ -33,7 +33,7 @@ import udd_upp.model.CasopisRecenzent;
 import udd_upp.model.Korisnik;
 import udd_upp.model.Rad;
 import udd_upp.model.Recenzija;
-import udd_upp.model.StatusRada;
+import udd_upp.enumeration.StatusRada;
 import udd_upp.service.CasopisRecenzentService;
 import udd_upp.service.CasopisService;
 import udd_upp.service.KorisnikService;

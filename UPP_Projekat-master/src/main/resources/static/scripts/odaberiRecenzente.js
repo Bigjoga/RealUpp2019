@@ -2,7 +2,6 @@ $(document).ready(function () {
 	var url_string = window.location.href;
 	var url = new URL(url_string);
 	var taskId = url.searchParams.get("taskId");
-	var naucneOblasti;
 	
 	$.ajax({
 		async: false,

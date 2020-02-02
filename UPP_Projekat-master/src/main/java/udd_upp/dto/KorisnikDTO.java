@@ -2,7 +2,7 @@ package udd_upp.dto;
 
 import java.util.List;
 
-import udd_upp.model.Uloga;
+import udd_upp.enumeration.Uloga;
 
 public class KorisnikDTO {
 

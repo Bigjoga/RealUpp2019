@@ -1,4 +1,4 @@
-package udd_upp.model;
+package udd_upp.enumeration;
 
 public enum StatusRada {
 

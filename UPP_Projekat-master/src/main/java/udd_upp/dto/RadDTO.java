@@ -1,6 +1,6 @@
 package udd_upp.dto;
 
-import udd_upp.model.StatusRada;
+import udd_upp.enumeration.StatusRada;
 
 public class RadDTO {
 	

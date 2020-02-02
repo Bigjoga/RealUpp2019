@@ -55,14 +55,7 @@ function buttonRegisterClick(){
 	drzava = $('#drzava').val();
 	ime = $('#ime').val();
 	prezime = $('#prezime').val();
-	korisnickoIme = $('#korisnickoIme').val();
-	
-	/*var regexp = /^[A-Z]/;
-	var resName = ime.match(regexp);
-	var resSurName = last_name.match(regexp);
-	var resCity = city.match(regexp);
-	var resCountry = country.match(regexp);*/
-	
+	korisnickoIme = $('#korisnickoIme').val();	
 	
 	if(!ime || !prezime || !email || !lozinka || !grad || !drzava) {
 		toastr["error"]('Popunite sva polja!');

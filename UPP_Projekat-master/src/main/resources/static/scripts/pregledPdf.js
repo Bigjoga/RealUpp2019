@@ -9,7 +9,6 @@ $(document).ready(function () {
 	var idRada = url.searchParams.get("idRada");
 	
 	var divPdf = $('#divPdf');
-	divPdf.append("<h3 style=\"margin-left:15%\"> ovde sad kao on vidi pdf... :) </h3>");
 	divPdf.append("<button style=\"margin-left:15%\" class=\"btn btn-primary\" id=\"prihvatiRad\" onclick=\"prihvatiRad("+idRada + ",\'" + PInsId + "\')\">Prihvati</button>");
 	divPdf.append("<button style=\"margin-left:5%\" class=\"btn btn-primary\" onclick=\"korekcijaFormata("+idRada + ",\'" + PInsId + "\')\">Korekcija formata</button>");
 	

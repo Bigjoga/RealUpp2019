@@ -10,7 +10,7 @@ import udd_upp.dto.FieldIdNamePairDto;
 import udd_upp.model.Casopis;
 import udd_upp.model.Korisnik;
 import udd_upp.model.Rad;
-import udd_upp.model.StatusRada;
+import udd_upp.enumeration.StatusRada;
 import udd_upp.service.CasopisService;
 import udd_upp.service.KorisnikService;
 

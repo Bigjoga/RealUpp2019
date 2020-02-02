@@ -12,6 +12,8 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import udd_upp.enumeration.Uloga;
+
 @Entity
 public class Korisnik {
 

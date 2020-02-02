@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import udd_upp.converter.ListOfFormFieldsToKorisnikConverter;
 import udd_upp.dto.FieldIdNamePairDto;
 import udd_upp.model.Korisnik;
-import udd_upp.model.Uloga;
+import udd_upp.enumeration.Uloga;
 import udd_upp.service.KorisnikService;
 
 @Service

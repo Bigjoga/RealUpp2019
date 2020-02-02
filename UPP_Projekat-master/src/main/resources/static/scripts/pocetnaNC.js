@@ -9,9 +9,6 @@ function ispravljeniRadovi(){
 }
 
 function addArticle(idMagazine){
-	/*var url_string = window.location.href;
-	var url = new URL(url_string);
-	var PInsId = url.searchParams.get("PInsId");*/
 	
 		var process = "Process_1";
 		$.ajax({
